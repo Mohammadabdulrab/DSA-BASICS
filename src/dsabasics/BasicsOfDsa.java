@@ -160,12 +160,31 @@ public class BasicsOfDsa {
 //        5
 //        In this challenge, you must read 3 integers and then print them. Each integer must be printed on a new line.
 
-       int a=sc.nextInt();
-       System.out.println(a);
-       String name=sc.nextLine();
-       System.out.println(name);
-       char ch=sc.next().charAt(0);
-       System.out.println(ch);
+//       int a=sc.nextInt();
+//       System.out.println(a);
+//       String name=sc.nextLine();
+//       System.out.println(name);
+//       char ch=sc.next().charAt(0);
+//       System.out.println(ch);
+
+        // Question 10
+
+//        Variable Practice Question 4
+//        Declare two variables as a and b.
+//        Initialize the values to those variables as 1042 and 7 respectively.
+//
+//        Declare another two variables quo and rem that will store the quotient
+//        and remainder of these numbers taking a as dividend and b as divisor.
+//
+//        Print quo and rem in a line separated by a space.
+
+        int a=1042;
+        int b=7;
+        int quo=a/b;
+        int rem=a%b;
+        System.out.print(quo);
+        System.out.println(" "+rem);
+
 
 
 
