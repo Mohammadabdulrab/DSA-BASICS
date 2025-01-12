@@ -113,5 +113,31 @@ public class BasicsOfDsa {
 
 //        String agentName=sc.nextLine();
 //        System.out.println("Hi my name is "+agentName);
+
+        //Question 8
+
+//   Verify Cube
+//   Take two positive integers from the user.
+//   Verify if (a+b)^3 = a^3 + b^3 + 3a^2b + 3ab^2.
+//
+//   Calculate the Left hand side (LHS) and the right hand side (RHS) of the equation.
+//   Print the (LHS) and the (RHS).
+//
+//   Print VERIFIED in uppercase if they are equal, otherwise print NOT VERIFIED.
+
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int lhs=(a+b)*(a+b)*(a+b);
+        int rhs=a*a*a+b*b*b+3*a*b*(a+b);
+        System.out.println(lhs);
+        System.out.println(rhs);
+        if(lhs==rhs){
+            System.out.println("VERIFIED");
+        }
+        else{
+            System.out.println(" NOT VERIFIED");
+        }
+
+
     }
 }
