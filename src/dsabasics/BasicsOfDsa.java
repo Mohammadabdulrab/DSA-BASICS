@@ -95,14 +95,23 @@ public class BasicsOfDsa {
 //        Mathematical Operations
 //        You are given two positive integers.
 //        You have to calculate the result by performing +,-,*,/,% operations on them.
+//
+//          int a=sc.nextInt();
+//          int b=sc.nextInt();
+//
+//          System.out.println(a+b);
+//          System.out.println(a-b);
+//          System.out.println(a*b);
+//          System.out.println(a/b);
+//          System.out.println(a%b);
 
-          int a=sc.nextInt();
-          int b=sc.nextInt();
 
-          System.out.println(a+b);
-          System.out.println(a-b);
-          System.out.println(a*b);
-          System.out.println(a/b);
-          System.out.println(a%b);
+        //Question 7
+
+//        You are required to take input a string agentName,
+//        and finally print the line "Hi my name is Agent insert agentName".
+
+//        String agentName=sc.nextLine();
+//        System.out.println("Hi my name is "+agentName);
     }
 }
