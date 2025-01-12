@@ -82,14 +82,27 @@ public class BasicsOfDsa {
 //
 //        Note: Take pi as 3
 
-        System.out.println("Enter the value of radius");
-        double radius=sc.nextInt();
-        double AreaOfCircle=3*radius*radius;
-        double PerimeterOfCircle=2*3*radius;
-        System.out.println(AreaOfCircle);
-        System.out.println(PerimeterOfCircle);
+//        System.out.println("Enter the value of radius");
+//        double radius=sc.nextInt();
+//        double AreaOfCircle=3*radius*radius;
+//        double PerimeterOfCircle=2*3*radius;
+//        System.out.println(AreaOfCircle);
+//        System.out.println(PerimeterOfCircle);
 
 
+        //Question 6
 
+//        Mathematical Operations
+//        You are given two positive integers.
+//        You have to calculate the result by performing +,-,*,/,% operations on them.
+
+          int a=sc.nextInt();
+          int b=sc.nextInt();
+
+          System.out.println(a+b);
+          System.out.println(a-b);
+          System.out.println(a*b);
+          System.out.println(a/b);
+          System.out.println(a%b);
     }
 }
