@@ -125,18 +125,48 @@ public class BasicsOfDsa {
 //
 //   Print VERIFIED in uppercase if they are equal, otherwise print NOT VERIFIED.
 
-        int a=sc.nextInt();
-        int b=sc.nextInt();
-        int lhs=(a+b)*(a+b)*(a+b);
-        int rhs=a*a*a+b*b*b+3*a*b*(a+b);
-        System.out.println(lhs);
-        System.out.println(rhs);
-        if(lhs==rhs){
-            System.out.println("VERIFIED");
-        }
-        else{
-            System.out.println(" NOT VERIFIED");
-        }
+//        int a=sc.nextInt();
+//        int b=sc.nextInt();
+//        int lhs=(a+b)*(a+b)*(a+b);
+//        int rhs=a*a*a+b*b*b+3*a*b*(a+b);
+//        System.out.println(lhs);
+//        System.out.println(rhs);
+//        if(lhs==rhs){
+//            System.out.println("VERIFIED");
+//        }
+//        else{
+//            System.out.println(" NOT VERIFIED");
+//        }
+
+
+        //Question 9
+
+
+//        Input / Output in Programming
+//        In this challenge, you will learn to read input for the first time. The most popular way to read input in java is by using Scanner.
+//
+//          For example:
+//
+//        Scanner scanner = new Scanner(System.in);
+//        int myInt = scanner.nextInt();
+//        For printing it
+//
+//        System.out.println( myInt);
+//        The code above creates a Scanner object named scanner and uses it to read an integer. It prints output using System.out.println(MyInt). So, if our input is:
+//
+//        5
+//        Our code will print:
+//
+//        5
+//        In this challenge, you must read 3 integers and then print them. Each integer must be printed on a new line.
+
+       int a=sc.nextInt();
+       System.out.println(a);
+       String name=sc.nextLine();
+       System.out.println(name);
+       char ch=sc.next().charAt(0);
+       System.out.println(ch);
+
 
 
     }
