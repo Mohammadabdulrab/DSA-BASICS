@@ -1,5 +1,6 @@
 package dsabasics;
 import java.util.*;
+import java.util.Scanner;
 
 //Question 1
 
@@ -25,7 +26,7 @@ public class BasicsOfDsa {
 
         //Question 3
 // Celsius to Fahrenheit 2
-//  Given a temperature in Celsius, output the fahrenheit equivalent of it.
+//  Given a temperature in Celsius, output the Fahrenheit equivalent of it.
 //
 //   Note
 //
@@ -61,5 +62,34 @@ public class BasicsOfDsa {
 //        double cel=sc.nextDouble();
 //        double far=(cel*9)/5+32;
 //        System.out.printf("%.6f", far);
+
+// Question 4
+//        Celsius to Fahrenheit
+//        Given the temperature of a city in Celsius (C) represented by the variable tempInCelsius, your task is to convert the temperature to Fahrenheit (F) and print it.
+//
+//        Formula : (C* (9/5)) + 32 = F
+
+   //     Note: It is guaranteed that the temperature in Celsius, tempInCelsius, will be a multiple of 5
+//        System.out.println("Enter the temperature in Celsius");
+//        int cel =sc.nextInt();
+//        int far=(cel*9)/5+32;
+//        System.out.println(far);
+
+        //Question 5
+
+//        Circle Area-Perimeter
+//        You are required to take the radius of a circle as input from the user, and finally, print the area and perimeter of the circle.
+//
+//        Note: Take pi as 3
+
+        System.out.println("Enter the value of radius");
+        double radius=sc.nextInt();
+        double AreaOfCircle=3*radius*radius;
+        double PerimeterOfCircle=2*3*radius;
+        System.out.println(AreaOfCircle);
+        System.out.println(PerimeterOfCircle);
+
+
+
     }
 }
