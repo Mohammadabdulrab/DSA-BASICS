@@ -1,5 +1,4 @@
-package dsabasics;
-import java.util.*;
+package fundamentalsOfJava;
 import java.util.Scanner;
 
 //Question 1
