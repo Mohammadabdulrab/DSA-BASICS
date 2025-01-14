@@ -5,7 +5,7 @@ public class Conditionals {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 
-        //Question 1
+        //............Question 1..................
 
 
 //        Conditional Problem 6
@@ -24,7 +24,7 @@ public class Conditionals {
 //            System.out.println("we are simple");
 //        }
 //
-//        Question 2
+//       .............. Question 2.................
 //
 //
 //        Grading System
@@ -56,7 +56,7 @@ public class Conditionals {
 //        }
 
 
-//       Question 3
+//      ............... Question 3..............
 
 
 //        Which Case
@@ -68,18 +68,65 @@ public class Conditionals {
 //
 //        -1, if the character is not an alphabet
 
-        char ch=sc.next().charAt(0);
-        if(ch>='A' && ch<='Z'){
-            System.out.println("1");
-        }
-        else if(ch>='a' && ch<='z'){
-            System.out.println("0");
-        }
-        else{
-            System.out.println("-1");
-        }
+//        char ch=sc.next().charAt(0);
+//        if(ch>='A' && ch<='Z'){
+//            System.out.println("1");
+//        }
+//        else if(ch>='a' && ch<='z'){
+//            System.out.println("0");
+//        }
+//        else{
+//            System.out.println("-1");
+//        }
+//
+//
+//        ...............Question 4..............
+//
+//
+//
+//        Number of Days
+//        Given the number of the month, your task is to calculate the number of days present in the particular month.
+//
+//                Note:- Consider non-leap year.
 
 
+//        int m=sc.nextInt();
+//        if(m==1){
+//            System.out.println("31");
+//        }
+//        else if(m==2){
+//            System.out.println("28");
+//        }
+//        else if(m==3){
+//            System.out.println("31");
+//        }
+//        else if(m==4){
+//            System.out.println("30");
+//        }
+//        else if(m==5){
+//            System.out.println("31");
+//        }
+//        else if(m==6){
+//            System.out.println("30");
+//        }
+//        else if(m==7){
+//            System.out.println("31");
+//        }
+//        else if(m==8){
+//            System.out.println("31");
+//        }
+//        else if(m==9){
+//            System.out.println("30");
+//        }
+//        else if(m==10){
+//            System.out.println("31");
+//        }
+//        else if(m==11){
+//            System.out.println("30");
+//        }
+//        else{
+//            System.out.println("31");
+//        }
 
 
 
