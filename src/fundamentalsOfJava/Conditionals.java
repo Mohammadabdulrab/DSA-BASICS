@@ -36,24 +36,53 @@ public class Conditionals {
 //        for marks above 60 and less than equal to 70, print "Meets Expectations".
 //        for marks below and equal to 60, print "Below Expectations".
 
+//
+//        int marks=sc.nextInt();
+//
+//        if(marks>90){
+//            System.out.println("Excellent");
+//        }
+//        else if(marks>80 && marks<=90){
+//            System.out.println("Good");
+//        }
+//        else if(marks>70 && marks<=80){
+//            System.out.println("Fair");
+//        }
+//        else if(marks>60 && marks<=70){
+//            System.out.println("Meets Expectations");
+//        }
+//        else{
+//            System.out.println("Below Expectations");
+//        }
 
-        int marks=sc.nextInt();
 
-        if(marks>90){
-            System.out.println("Excellent");
+//       Question 3
+
+
+//        Which Case
+//        You are required to take input of a character from the user. The task is to print the following
+//
+//        1, if the character is a uppercase alphabet(A to Z)
+//
+//        0, if the character is a lowercase alphabet(a to z)
+//
+//        -1, if the character is not an alphabet
+
+        char ch=sc.next().charAt(0);
+        if(ch>='A' && ch<='Z'){
+            System.out.println("1");
         }
-        else if(marks>80 && marks<=90){
-            System.out.println("Good");
-        }
-        else if(marks>70 && marks<=80){
-            System.out.println("Fair");
-        }
-        else if(marks>60 && marks<=70){
-            System.out.println("Meets Expectations");
+        else if(ch>='a' && ch<='z'){
+            System.out.println("0");
         }
         else{
-            System.out.println("Below Expectations");
+            System.out.println("-1");
         }
+
+
+
+
+
 
     }
 
