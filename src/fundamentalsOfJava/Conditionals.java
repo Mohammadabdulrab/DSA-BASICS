@@ -172,21 +172,40 @@ public class Conditionals {
 //        A triangle is right-angled, if twice the square of its largest side is
 //        exactly equal to the sum of squares of all the sides.
 
-        int s1=sc.nextInt();
-        int s2=sc.nextInt();
-        int s3=sc.nextInt();
+//        int s1=sc.nextInt();
+//        int s2=sc.nextInt();
+//        int s3=sc.nextInt();
+//
+//        int ls=Math.max(Math.max(s1, s2),s3);
+//        if(2*ls*ls<s1*s1+s2*s2+s3*s3){
+//            System.out.println("1");
+//        }
+//        else if(2*ls*ls>s1*s1+s2*s2+s3*s3){
+//            System.out.println("3");
+//        }
+//        else{
+//            System.out.println("2");
+//        }
+//
+//
+//        .................Question 7.................
+//
+//
+//        Sum of Natural Numbers
 
-        int ls=Math.max(Math.max(s1, s2),s3);
-        if(2*ls*ls<s1*s1+s2*s2+s3*s3){
-            System.out.println("1");
-        }
-        else if(2*ls*ls>s1*s1+s2*s2+s3*s3){
-            System.out.println("3");
-        }
-        else{
-            System.out.println("2");
-        }
+//        You are given an integer N. Your task is to output the sum of all natural
+//        numbers till N.
+//        Natural numbers are a part of the number system, including all the
+//        positive numbers from 1 to infinity.
 
+        int n =sc.nextInt();
+        int sum=0;
+        int i=1;
+        while(i<=n){
+            sum=sum+i;
+            i++;
+        }
+        System.out.println("Sum of first "+n+" positive natural number is :"+sum);
     }
 
 }
