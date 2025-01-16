@@ -198,14 +198,34 @@ public class Conditionals {
 //        Natural numbers are a part of the number system, including all the
 //        positive numbers from 1 to infinity.
 
-        int n =sc.nextInt();
-        int sum=0;
-        int i=1;
-        while(i<=n){
-            sum=sum+i;
-            i++;
+//        int n =sc.nextInt();
+//        int sum=0;
+//        int i=1;
+//        while(i<=n){
+//            sum=sum+i;
+//            i++;
+//        }
+//        System.out.println("Sum of first "+n+" positive natural number is :"+sum);
+
+
+
+        //................Question 8...................
+
+        // find the largest number
+
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+
+        if(a>=b && a>=c){
+            System.out.println(a+" is largest number");
         }
-        System.out.println("Sum of first "+n+" positive natural number is :"+sum);
+        else if(b>=a && b>=c){
+            System.out.println(b+" is largest number");
+        }
+        else{
+            System.out.println(c+" is largest number");
+        }
     }
 
 }
