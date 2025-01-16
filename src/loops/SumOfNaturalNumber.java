@@ -17,12 +17,20 @@ public class SumOfNaturalNumber {
 
         Scanner sc=new Scanner(System.in);
         long n=sc.nextInt();
-        long sum=0;
-        long i=1;
-        while(i<=n){
-            sum=sum+i;
-            i++;
-        }
+
+        // time complexity O(n)
+//        long sum=0;
+//        long i=1;
+//        while(i<=n){
+//            sum=sum+i;
+//            i++;
+//        }
+//        System.out.println(sum);
+
+
+        // Time Complexity O(1)
+
+        long sum=(n*(n+1))/2;
         System.out.println(sum);
     }
 }

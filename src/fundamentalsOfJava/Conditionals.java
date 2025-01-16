@@ -88,8 +88,8 @@ public class Conditionals {
 //        Given the number of the month, your task is to calculate the number of days present in the particular month.
 //
 //                Note:- Consider non-leap year.
-
-
+//
+//
 //        int m=sc.nextInt();
 //        if(m==1){
 //            System.out.println("31");

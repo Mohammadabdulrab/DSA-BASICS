@@ -14,6 +14,9 @@ public class CheckPrime {
 
         Scanner sc= new Scanner(System.in);
         int n=sc.nextInt();
+
+        // time complexity O(n)
+
         int count=0;
         int i=1;
         while(i<=n){
@@ -28,6 +31,10 @@ public class CheckPrime {
         else{
             System.out.println(n+" is not a prime number");
         }
+
+        // time complexity O(n/2)
+
+        // time complexity O(sqrt of n)
 
     }
 }
