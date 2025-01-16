@@ -12,13 +12,33 @@ public class PrintEvenNumber {
 
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int i=0;
+
+        //time compelexity O(n)
+
+//       int i=0;
+//        while(i<=n){
+//            if(i%2==0){
+//                System.out.print(i+" ");
+//            }
+//            i++;
+//        }
+
+
+        //time compelexity O(n/2)
+
+        int i=2;
         while(i<=n){
-            if(i%2==0){
-                System.out.print(i+" ");
-            }
-            i++;
+            System.out.println(i);
+            i=i+2;
         }
+
+
+
+
+
+
+
+
 
     }
 }
