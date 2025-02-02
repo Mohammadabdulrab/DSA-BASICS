@@ -18,14 +18,21 @@ public class HCFOfTwoNumbers {
         int a=sc.nextInt();
         int b=sc.nextInt();
 
-        while(a!=b){
-            if(a>b){
-                a=a-b;
-            }
-            else{
-                b=b-a;
+//        while(a!=b){
+//            if(a>b){
+//                a=a-b;
+//            }
+//            else{
+//                b=b-a;
+//            }
+//        }
+
+        int hcf=1;
+        for(int i=1;i<=a;i++){
+            if(a%i==0 && b%i==0){
+                hcf=i;
             }
         }
-        System.out.println(a);
+        System.out.println(hcf);
     }
 }
